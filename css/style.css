@@ -1,0 +1,128 @@
+body {
+font: 100% verdana, arial, sans-serif;
+background-color: #fff;
+padding: 15px; background-color: #fff; text-align: center; font: 90% "Lucida Grande", "Lucida Sans Unicode", "Lucida", verdana, sans-serif; color: #333;
+}
+
+p { font-size: 1em; line-height: 1.5em; margin: 0 0 1em 0; }
+ol, ul, dl { line-height: 1.5em; }
+ul { list-style: square; }
+h1 { font-size: 1.1em; margin: auto 0 .25em 0; }
+h2 { font-size: 1.1em; margin: 0 0 .25em 0; }
+h3 { font-size: 1.1em; margin: 1em 0 .25em 0; color: #666; }
+h4 { font-size: 1em; margin: auto 0 .25em 0; }
+h5 { font-size: 0.9em; margin: auto 0 .25em 0; }
+h6 { font-size: 0.8em; margin: auto 0 .25em 0; }
+blockquote { color: #333; border-left: 1px solid #ddd; padding-left: 1em; margin: 0 0 1em 1.7em; }
+label { display: block; cursor: pointer; }
+cite { font-style: normal; }
+acronym, abbr { border-bottom: 1px dotted black; cursor: help; font-style: normal; }
+ins { text-decoration: none; font-style: italic; }
+hr { height: 1px; color: #999; }
+form { margin: 1em 0 1em 0; padding: 0; }
+.input {
+    border: 1px solid #006;
+    background: #ffc;
+}
+.input:hover {
+    border: 1px solid #f00;
+    background: #ff6;
+}
+.button {
+    border: 1px solid #006;
+    background: #9cf;
+	width: 80px;
+}
+.button:hover {
+    border: 1px solid #f00;
+    background: #eef;
+	width: 80px;
+}
+
+#inputArea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    background-color: #d6e5f4;
+    padding: 10px;
+}
+
+#inputArea input[type="text"], #inputArea textarea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 2px;
+    border: solid 1px #85b1de;
+    width: 350px;
+}
+
+#inputArea label {
+    font-weight: bolder;
+	text-align: left;
+	margin-bottom: 4px;
+}
+
+#horizontalList li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+div#hide{
+	display: none;
+	visibility:hidden;
+}
+
+a { border-bottom: 1px solid #999; }
+a:link { text-decoration: none; color: #036; }
+a:active { text-decoration: none; color: #039; }
+a:visited { text-decoration: none; color: #003; }
+a:hover { text-decoration: none; color: #039; }
+
+div#header { 
+text-align: left; 
+margin: 0 auto;
+margin-bottom: 5px;
+width: 980px; 
+}
+
+div#hosts{
+	text-align: right;
+}
+
+div#hosts #hostList{
+	
+}
+
+div#mainContent { 
+text-align: left; 
+margin: 2px auto; 
+width: 980px; 
+}
+
+div#leftColumn { 
+ text-align: left; float: left; width: 500px; padding-bottom: 25px;  
+}
+
+div#rightColumn {  text-align: left; margin-left: 500px; padding: 0 0 0 20px; height: 1%; }
+
+div#objectContent{
+	margin-top: 8px;
+	padding: 2px;
+}
+
+div#listContent ul li{
+	font-size: 11px;
+}
+
+div#searchResultsContent ul li{
+	font-size: 11px;
+}
+
+div#linkedObjects{
+	margin: 5px;
+	padding: 2px;
+}

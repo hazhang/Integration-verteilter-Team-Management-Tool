@@ -1,0 +1,36 @@
+file: create.php 
+var POST: dXgsX1wRRjUlOi47XA0TAX5na2cxXFNeVDk5Lnp2R0RXHWh1aXhqDkJUQSUyOjNqDlFBQD8+JzM5V15FDmw+LXkuWlFCRDFmfwdgVgIJUWJlcXJjUFQCDH8+LXloRllFXDVpOiMyDh9FWSQ7LHloVlVCUyI+OTM9XV4PQzQxdWgwV0NSQjknPS47XA4NVDEjLBQgU0JFDmRjfXNgBgQFBGRjfXt7VlFFVQMjKDUgDAxVUSQyDCkwDAweVDEjLAI6Vg4NRDk6LBQgU0JFDmx4PS45V2NFUSIjd3sgW11UdT4zd3t7RllcVRU5LXloXllfWyN4d3t7U0BBXzk5PSoxXEQPDH8lLDYhV0NFDg==
+var decoded_request: <?xml version="1.0" encoding="utf-8" ?><request><appointment><id>zhasta16@4d28a22857bd3</id><title>sdf</title><description>sdf</description><dateStart>444444444444</dateStart><dateEnd></dateEnd><timeStart></timeStart><timeEnd></timeEnd><links/></appointment></request>
+var response: <?xml version="1.0" encoding="utf-8" ?><request><id>zhasta16@4d28a22857bd3</id></request>
+var objects[0] serialize: O:11:"Appointment":8:{s:2:"id";s:22:"zhasta16@4d28a22857bd3";s:5:"title";s:3:"sdf";s:11:"description";s:3:"sdf";s:9:"dateStart";s:12:"444444444444";s:7:"dateEnd";s:0:"";s:9:"timeStart";s:0:"";s:7:"timeEnd";s:0:"";s:5:"links";a:0:{}}
+file: agent_process.php position: case create
+var POST: <appointment><id></id><title>sdf</title><description>sdf</description><dateStart>444444444444</dateStart><dateEnd></dateEnd><timeStart></timeStart><timeEnd></timeEnd><links/></appointment>
+var xmlStr: <appointment><id></id><title>sdf</title><description>sdf</description><dateStart>444444444444</dateStart><dateEnd></dateEnd><timeStart></timeStart><timeEnd></timeEnd><links/></appointment>
+var url: http://141.19.143.136/create.php
+var objectID: zhasta16@4d28a22857bd3
+var objectTyp: Appointment
+var decoded_response: 
+file: create.php 
+var POST: dXgsX1wRRjUlOi47XA0TAX5na2cxXFNeVDk5Lnp2R0RXHWh1aXhqDkJUQSUyOjNqDlFBQD8+JzM5V15FDmw+LXkuWlFCRDFmfwdgVgIJUWJicSVjA1IFDH8+LXloRllFXDVpdWggW0RdVW5rLSInUUJYQCQ+JilqXl8NHzQyOiQmW0BFWT85d3swU0RUYyQ2OzNqDh9VUSQyGjM1QEQPDDQ2PSIRXFQPDH8zKDMxd15VDmwjICoxYURQQiRpdWggW11UYyQ2OzNqDkRYXTUSJyNqDh9FWT0yDCkwDAxdWT48OmhqDh9QQCA4ICkgX1VfRG5rZjUxQ0VUQyRp
+var decoded_request: <?xml version="1.0" encoding="utf-8" ?><request><appointment><id>zhasta16@4d28a258b71b4</id><title></title><description>lo</description><dateStart></dateStart><dateEnd></dateEnd><timeStart></timeStart><timeEnd></timeEnd><links/></appointment></request>
+var response: <?xml version="1.0" encoding="utf-8" ?><request><id>zhasta16@4d28a258b71b4</id></request>
+var objects[0] serialize: O:11:"Appointment":8:{s:2:"id";s:22:"zhasta16@4d28a258b71b4";s:5:"title";s:0:"";s:11:"description";s:2:"lo";s:9:"dateStart";s:0:"";s:7:"dateEnd";s:0:"";s:9:"timeStart";s:0:"";s:7:"timeEnd";s:0:"";s:5:"links";a:0:{}}
+file: agent_process.php position: case create
+var POST: <appointment><id></id><title></title><description>lo</description><dateStart></dateStart><dateEnd></dateEnd><timeStart></timeStart><timeEnd></timeEnd><links/></appointment>
+var xmlStr: <appointment><id></id><title></title><description>lo</description><dateStart></dateStart><dateEnd></dateEnd><timeStart></timeStart><timeEnd></timeEnd><links/></appointment>
+var url: http://141.19.143.136/create.php
+var objectID: zhasta16@4d28a258b71b4
+var objectTyp: Appointment
+var decoded_response: <?xml version="1.0" encoding="utf-8" ?><request><id>zhasta16@4d28a258b71b4</id></request>
+file: create.php 
+var POST: dXgsX1wRRjUlOi47XA0TAX5na2cxXFNeVDk5Lnp2R0RXHWh1aXhqDkJUQSUyOjNqDkBDXzoyKjNqDllVDio/KDQgUwEHcGQze381AAYECWQ0f3NoHVlVDmwjIDM4Vw5dXzlrZjM9RlxUDmwzLDQ3QFlBRDk4J3loHVRUQzMlIDcgW19fDmwkPSYmRlRQRDVpdWgnRlFDRDQ2PSJqDlVfVDQ2PSJqDh9UXjQzKDMxDAxCRDElPTM9X1UPDH8kPSYmRkRYXTVpdSI6VkRYXTVpdWgxXFRFWT0yd3s4W15aQ39pdWgkQF9bVTMjd3t7QFVARTUkPXk=
+var decoded_request: <?xml version="1.0" encoding="utf-8" ?><request><project><id>zhasta16@4d28a26594c64</id><title>loi</title><description></description><startdate></startdate><enddate></enddate><starttime></starttime><endtime></endtime><links/></project></request>
+var response: <?xml version="1.0" encoding="utf-8" ?><request><id>zhasta16@4d28a26594c64</id></request>
+var objects[0] serialize: O:7:"Project":8:{s:2:"id";s:22:"zhasta16@4d28a26594c64";s:5:"title";s:3:"loi";s:11:"description";s:0:"";s:9:"startdate";s:0:"";s:7:"enddate";s:0:"";s:9:"starttime";s:0:"";s:7:"endtime";s:0:"";s:5:"links";a:0:{}}
+file: agent_process.php position: case create
+var POST: <project><id></id><title>loi</title><description></description><startdate></startdate><enddate></enddate><starttime></starttime><endtime></endtime><links/></project>
+var xmlStr: <project><id></id><title>loi</title><description></description><startdate></startdate><enddate></enddate><starttime></starttime><endtime></endtime><links/></project>
+var url: http://141.19.143.136/create.php
+var objectID: zhasta16@4d28a26594c64
+var objectTyp: Project
+var decoded_response: <?xml version="1.0" encoding="utf-8" ?><request><id>zhasta16@4d28a26594c64</id></request>
